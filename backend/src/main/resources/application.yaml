@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3307/web_selling_books
+    password: ''
+  jpa:
+    open-in-view: 'false'
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: 'true'
+  application:
+    name: web_selling_books
+
+server:
+  servlet:
+    context-path: /api
+  port: '8080'
+
+
