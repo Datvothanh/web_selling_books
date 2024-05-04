@@ -1,0 +1,9 @@
+.category_icon {
+    background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_menu.svg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+}
